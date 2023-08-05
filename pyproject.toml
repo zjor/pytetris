@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pytetris"
+version = "0.1.0"
+description = ""
+authors = ["Sergey Royz <zjor.se@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+textual = "^0.30.0"
+pytest = "^7.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

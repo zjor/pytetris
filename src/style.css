@@ -1,0 +1,26 @@
+Screen {
+    align: center middle;
+}
+
+TetrisField {
+    border: greenyellow;
+    width: 22;
+    height: 22;
+    text-style: bold;
+    color: greenyellow;
+}
+
+
+GameOverScreen {
+    align: center middle;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+GameOverScreen > Static {
+    width: 40;
+    padding: 1;
+    border: greenyellow;
+    text-align: center;
+    text-style: bold;
+    color: greenyellow;
+}
