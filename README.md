@@ -12,4 +12,5 @@ w - rotate counter clockwise
 s - rotate clockwise
 l - move down
 space - restart the game after the game is over
+Ctrl+C - exit
 ```
